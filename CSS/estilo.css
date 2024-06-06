@@ -10,13 +10,17 @@ header{
     text-align: center;
 } /* Seletor do Cabeçalho */
 
-li{
+.botoesMenu, li{
     color: #fff
     list-style-type: none; /* Remover as Bolinhas de Tópicos */
     display: inline; /* Transformar Coluna em Linha */
     border: 2px solid #000;
     padding: 20px;
     background-color: #000;
+}
+
+ul{
+    margin-bottom: 2%;
 }
 
 li:hover{
@@ -26,10 +30,67 @@ li:hover{
 } /*Modifica o Conteudo Original da TAG */
 
 .titulo{
-    border: 2px solid #777
+    font-size: 450%;
 } /* Chamando a Classe */
 
 aside{
     background-image: url("../Imagens/faz.jpg");
     background-repeat: no-repeat;
+}
+
+.imgFmt{
+    /* Formatar a Imagem */
+    width: 50%; /* Altura */
+    height: 50%; /* Largura */
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 28% 28% 28%;
+    grid-gap: 1%;
+    margin-left: 5%;
+}
+
+article{
+    border: 2px solid #000;
+    text-align: center;
+    color: #000;
+    font-size: 90%;
+    background-color: #fff;
+    padding-bottom: 30%;
+}
+
+h3{
+    border: 2px solid #000;
+    margin-top: 0%;
+    padding: 3%;
+    background-color: #000;
+    color: #fff;
+    font-size: 150%;
+}
+
+a{
+    border: 2px solid #000;
+    padding: 5%;
+    padding-top: 5%;
+    padding-left: 40%;
+    padding-right: 40%;
+    font-weight: bold; /* Negrito */
+    background-color: #888;
+    color: #fff;
+    
+}
+
+.preco{
+    margin-bottom: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 140%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
 }
