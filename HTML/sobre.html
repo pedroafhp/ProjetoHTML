@@ -9,5 +9,45 @@
 </head>
 <body>
     <h1>Sobre</h1>
+
+    <fomr>
+        <label> CPF: </label>
+        <input type="text" name="cpf" placeholder="000.111.222-33" required><!-- Type é o tipo de dado: date, text, number, password, e-mail -->
+        <br><br>
+        <label> Nome: </label>
+        <input type="text" name="nome" placeholder="Nome" required>
+        <br><br>
+        <label> Data de Nascimento: </label>
+        <input type="date" name="dtNascimento" required>
+        <br><br>
+        <label> Gênero: </label><br>
+        <input type="checkbox" name="genero" value="Masculino">
+        <label> Masculino </label><br>
+        <input type="checkbox" name="genero" value="Feminino">
+        <label> Feminino </label><br>
+        <input type="checkbox" name="genero" value="Não Binario">
+        <label> Não Binario </label>
+        <br><br>
+        <label> UF: </label><br>
+        <input type="radio" name="uf" valeu="sp">
+        <label>SP</label>
+        <input type="radio" name="uf" valeu="mg">
+        <label>MG</label>
+        <input type="radio" name="uf" valeu="ma">
+        <label>MA</label>
+        <input type="radio" name="uf" valeu="ac">
+        <label>AC</label>
+        <br><br>
+        <label> Estado Civil: </label>
+        <select name="estadoCivil">
+            <option value=""></option>
+            <option value="Casado"> Casado </option>
+            <option value="Solteiro"> Solteiro </option>
+            <option value="Divorciado"> Divorciado </option>
+            <option value="Viúvo"> Viúvo </option>
+        </select>
+        <br><br>
+        <button type="submit">Cadastrar</button>
+    </fomr>
 </body>
 </html>
